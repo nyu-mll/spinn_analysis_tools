@@ -1,3 +1,13 @@
+"""
+
+Script to generate a spreadsheet of results for large experiment sweeps.
+
+Example command,
+python sweep_results.py --log_path /scratch/nn1119/nli/ --log_type spinn --sort_column best_dev --path_out ../results
+
+"""
+
+
 import glob
 import os
 import gflags
